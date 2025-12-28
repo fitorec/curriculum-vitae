@@ -1,77 +1,36 @@
-\documentclass[11pt,a4paper,sans]{moderncv}
+\documentclass[11pt,a4paper]{moderncv}
 
-% ===============================
-% Estilo y color
-% ===============================
 \moderncvstyle{classic}
 \moderncvcolor{blue}
 
-% ===============================
-% Codificación e idioma
-% ===============================
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[spanish]{babel}
+\usepackage[scale=0.9]{geometry}
+\usepackage{graphicx}
 
-% ===============================
-% Ajustes de página
-% ===============================
-\usepackage[scale=0.85]{geometry}
-
-% ===============================
-% Foto
-% ===============================
+\name{Miguel Ángel}{Marcial Martínez}
+\title{Ingeniero en Computación}
+\address{Oaxaca, México}{}{}
+\email{fitorec@mundosica.com}
+\homepage{linkedin.com/in/fitorec}
+\extrainfo{Teléfono: +52 951 115 9304}
 \photo[64pt][0.4pt]{img/perfil}
 
-% ===============================
-% Información personal
-% ===============================
-\name{Miguel Ángel}{Marcial Martínez}
-\title{Ingeniero en Computación | Ciencia de Datos}
-\address{Oaxaca, México}{}{}
-\phone[mobile]{+52 951 115 9304}
-\email{chanerec@gmail.com}
-\homepage{linkedin.com/in/fitorec}
-\social[github]{fitorec}
-
-% ===============================
-% Metadatos del PDF
-% ===============================
-\usepackage{hyperref}
-\hypersetup{
-  pdftitle={Curriculum Vitae - Miguel Ángel Marcial Martínez},
-  pdfauthor={Miguel Ángel Marcial Martínez},
-  pdfsubject={Ingeniería en Computación, Ciencia de Datos, Docencia},
-  pdfkeywords={Ingeniería en Computación, Ciencia de Datos, Software Libre, Seguridad, Docencia, IA},
-  pdfcreator={LaTeX with ModernCV},
-  pdfproducer={pdflatex},
-  colorlinks=true,
-  urlcolor=blue
-}
-
-% ===============================
-% Documento
-% ===============================
 \begin{document}
-
 \makecvtitle
 
 % ===============================
 % Perfil profesional
 % ===============================
+
 \section{Perfil Profesional}
 
-Ingeniero en Computación titulado por el CENEVAL mediante el Acuerdo 286 por experiencia laboral, 
-con formación académica en la Universidad Tecnológica de la Mixteca y estudios de maestría en Ciencia de Datos en curso.
+Ingeniero en Computación, egresado de la Universidad Tecnológica de la Mixteca, maestrante en Ciencia de Datos y desarrollador con amplia trayectoria en software libre, conocido en la comunidad tecnológica como \textbf{@fitorec}.
 
-Cuento con más de una década de experiencia en desarrollo de software, seguridad de aplicaciones web y 
-gestión de proyectos tecnológicos, participando tanto en entornos académicos como en la industria.
-He trabajado en el diseño, implementación y despliegue de sistemas web y plataformas financieras,
-aplicando buenas prácticas de seguridad (OWASP), automatización y metodologías ágiles.
+Con experiencia en desarrollo de software, seguridad de aplicaciones web y gestión de proyectos tecnológicos, participación activa tanto en entornos académicos como en la industria.
 
-Mi perfil combina una sólida base técnica con experiencia en docencia y divulgación tecnológica,
-especialmente en software libre, desarrollo web y sistemas computacionales,
-así como un interés activo en el análisis de datos y la inteligencia artificial aplicada a problemas reales.
+Diseño, implementación y mantenimiento de sistemas web, plataformas financieras y proyectos open source, aplicando buenas prácticas de seguridad, automatización y metodologías ágiles, así como en la docencia y divulgación tecnológica.
 
 % ===============================
 % Secciones
@@ -80,6 +39,8 @@ así como un interés activo en el análisis de datos y la inteligencia artifici
 \input{sections/docencia}
 \input{sections/educacion}
 \input{sections/habilidades}
+\input{sections/contribuciones}
 \input{sections/idiomas}
+
 
 \end{document}
