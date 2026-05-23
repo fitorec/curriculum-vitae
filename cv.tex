@@ -8,14 +8,24 @@
 \usepackage[spanish]{babel}
 \usepackage[scale=0.9]{geometry}
 \usepackage{graphicx}
+\usepackage{fontawesome5}
+\renewcommand*{\addresssymbol}{\faIcon{map-marker}\hspace{0.5em}}
+\renewcommand*{\emailsymbol}{\faIcon{envelope}\hspace{0.5em}}
+\renewcommand*{\homepagesymbol}{\faIcon{linkedin}\hspace{0.5em}}
 
 \name{Miguel Ángel}{Marcial Martínez}
-\title{Ingeniero en Computación}
+\title{Ingeniero en Computación\\
+\small Maestrante en Ciencias de Datos}
+
 \address{Oaxaca, México}{}{}
 \email{fitorec@mundosica.com}
 \homepage{linkedin.com/in/fitorec}
-\extrainfo{Teléfono: +52 951 115 9304}
+\extrainfo{\faIcon{phone} +52 951 115 9304}
 \photo[64pt][0.4pt]{img/perfil}
+
+\makeatletter
+\renewcommand*{\namefont}{\fontsize{20}{5}\mdseries\upshape}
+\makeatother
 
 \begin{document}
 \makecvtitle
